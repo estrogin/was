@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>IntelligentAiming</title>
+<link href="animate.css" rel="stylesheet" type="text/css">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			background-color: black;
+			
+		}
+		
+		.bavckground-wrap {
+			position: fixed;
+			z-index: -1000;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+			top: 0;
+			left: 0;
+		}
+		
+		#video-bg-elem {
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-height: 100%;
+			width: 100%;
+		}
+		
+		.vcontent{
+			position: absolute;
+			width: 100%;
+			min-height: 100%;
+			z-index: 1000;
+		}
+		
+		.vcontent h1 {
+			text-align: center;
+			font-size: 65px;
+			text-transform: uppercase;
+			font-weight: 300;
+			color: #E3E3E3;
+			padding-top: 20%;
+			margin-bottom: 10px;
+			
+		}
+		
+		.vcontainer {
+			padding: 0;
+			margin: 0;
+			text-align: center;
+			
+		}
+		
+		.text1 {
+			font-family: "Tripleta";
+			color: white;
+			float: right;
+			font-size: 70px;
+			margin-right: 35%;
+			padding-top: 22%;
+			text-transform: uppercase;
+			
+			
+		}
+		
+		.text2 {
+			color: white;
+			font-family: "Tripleta";
+			font-size: 20px;
+			letter-spacing: 40px;
+			float: right;
+			margin-right: 39.5%;
+			text-transform: uppercase;
+			
+			
+			
+		}
+		
+		@font-face{
+			font-family: "Tripleta";
+			src:url(font/Tripleta-ExtraBold-Demo-FFP.ttf);
+		}
+		
+		.image2 {
+			height: 115px;
+			width: 115px;
+			position: absolute;
+			padding-top: 32%;
+			padding-left: 33%;
+			z-index: 3;
+		}
+		
+		.image3 {
+			height: 115px;
+			width: 115px;
+			position: absolute;
+			padding-top: 32%;
+			padding-left: 45%;
+			z-index: 2;
+			
+		}
+		
+		.image1 {
+			height: 115px;
+			width: 115px;
+			position: absolute;
+			padding-top: 32%;
+			padding-left: 57%;
+			z-index: 1;
+
+		}
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	</style>
+</head>
+
+<body>
+	<video preload="auto" autoplay="true" loop="loop" id="video-bg-elem"> 
+			<source src="ruststart.mp4.mp4">
+		</video>
+	
+<div class="container fadeInUp animated">
+		
+		<span class="text1">Intelligent</span>
+		<span class="text2">aiming</span>
+		<a href="https://discord.gg/bKnvrxt">
+			<img src="disvcord.png" class="image1" onMouseOver="this.src='disvcord hover over.png'" onMouseOut="this.src='disvcord.png'">
+		</a>
+		<a href="https://discord.gg/bKnvrxt">
+			<img src="store.png" class="image2" onMouseOver="this.src='store hover over.png'" onMouseOut="this.src='store.png'">
+		</a>
+		<a href="google.com">
+			<img src="forums.png" class="image3" onMouseOver="this.src='forums hover over.png'" onMouseOut="this.src='forums.png'">
+		</a>
+		
+			
+	
+	</div></body>
+</html>
